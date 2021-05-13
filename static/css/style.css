@@ -1,0 +1,101 @@
+.body {
+  background-color: rgb(126, 123, 123);
+  font-family: "Lemonada", cursive;
+}
+
+.dclass {
+  float: middle;
+}
+.logo-text {
+  font-family: "Great Vibes", cursive;
+}
+.song-background {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.col-parm {
+  width: 18rem;
+  height: 16rem;
+}
+
+.image-parm {
+  width: 6rem;
+  height: 12rem;
+  object-fit: cover;
+}
+.song-background:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.heading {
+  padding: 13px;
+}
+
+.album-background {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.album-background:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+#audioplayer {
+  width: 480px;
+  height: 60px;
+  margin: 50px auto auto auto;
+  border: solid;
+}
+
+.pButton {
+  height: 60px;
+  width: 60px;
+  border: none;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  outline: none;
+}
+
+.play {
+  background: url("http://www.alexkatz.me/codepen/img/play.png");
+}
+
+.pause {
+  background: url("http://www.alexkatz.me/codepen/img/pause.png");
+}
+
+#timeline {
+  width: 400px;
+  height: 20px;
+  margin-top: 20px;
+  float: left;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#playhead {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-top: 1px;
+  background: rgba(0, 0, 0, 1);
+}

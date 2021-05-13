@@ -1,0 +1,91 @@
+.body {
+  background-color: rgb(126, 123, 123);
+  font-family: "Lemonada", cursive;
+}
+
+.dclass {
+  float: middle;
+}
+.logo-text {
+  font-family: "Great Vibes", cursive;
+}
+.song-background1 {
+  position: relative;
+  background-image: url("images/cloudy.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+.song-background2 {
+  position: relative;
+  background-image: url("images/lily.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.song-background3 {
+  position: relative;
+  background-image: url("images/sun.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.song-background4 {
+  position: relative;
+  background-image: url("images/sky.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.col-parm {
+  width: 18rem;
+  height: 16rem;
+}
+
+.image-parm {
+  width: 6rem;
+  height: 12rem;
+  object-fit: cover;
+}
+.song-background1:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.song-background2:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.song-background3:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.song-background4:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.heading {
+  padding: 13px;
+}
